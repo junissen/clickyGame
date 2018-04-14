@@ -1,0 +1,90 @@
+.jumbotron,
+.cardRow,
+body,
+.resultDisplay {
+    margin: 0px;
+    background: url("../images/broad_city.jpeg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.titleDisplay {
+    font-size: 100px;
+    font-family: 'Londrina Outline', cursive;
+    text-shadow:
+		-2px -2px 0 #000,
+		2px -2px 0 #000,
+		-2px 2px 0 #000,
+		2px 2px 0 #000;
+}
+
+.titleSub {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow:
+		-0.5px -0.5px 0 #000,
+		0.5px -0.5px 0 #000,
+		-0.5px 0.5px 0 #000,
+		0.5px 0.5px 0 #000;
+}
+
+.searchDisplay, 
+.counterDisplay {
+    background-color: #FF00FF;
+}
+
+.searchDisplayTitle, 
+.counterDisplayTitle {
+    font-family: 'Londrina Outline', cursive;
+    text-shadow:
+		-0.2px -0.2px 0 #000,
+		0.2px -0.2px 0 #000,
+		-0.2px 0.2px 0 #000,
+		0.2px 0.2px 0 #000;
+}
+
+.searchDisplayTitle {
+    font-size: 24px
+}
+
+.form-control {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.searchButton {
+    margin-top: 10px;
+    background-color: #5B2C6F;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body {
+    height: 100%
+}
+
+body {
+    background-color: #17202A  
+}
+
+.imageDiv {
+    margin: 20px
+}
+
+.imageDiv-item {
+    display: inline-block
+}
+
+.img-fluid {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .counterDisplay {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
